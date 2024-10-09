@@ -1,4 +1,5 @@
 .DS_Store
 .venv
 **API_KEY**
+data/n50
 __pycache__
