@@ -20,6 +20,9 @@ class CQKPInstance:
 class CQKPSolution:
     Items: list # Selected items
     Obj: float # Objective value
+    card: bool # Flag of cardinality constraint
+    cap: bool # Flag of capacity constraint
+    Slacks: tuple = () # Slack variables
 
 
 def read_instance(filepath: Path) -> Optional[CQKPInstance]:
